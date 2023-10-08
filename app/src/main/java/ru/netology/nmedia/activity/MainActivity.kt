@@ -24,16 +24,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val viewModel by viewModels<PostViewModel>()
-        val adapter = PostAdapter(object: OnInteractionListener {
+        val adapter = PostAdapter(object : OnInteractionListener {
             override fun like(post: Post) {
                 viewModel.like(post.id)
             }
+
             override fun remove(post: Post) {
                 viewModel.removeById(post.id)
             }
+
             override fun edit(post: Post) {
                 viewModel.edit(post)
             }
+
             override fun share(post: Post) {
                 viewModel.share(post.id)
             }
@@ -55,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 binding.editText?.setText(it.content)
                 binding.editText?.focusAndShowKeyboard()
                 binding.editCancelGroup?.visibility = View.VISIBLE
-                binding.postText?.text = truncateText(contentText,35)
+                binding.postText?.text = truncateText(contentText, 35)
             }
         }
         binding.cancelButton?.setOnClickListener {
@@ -69,8 +72,9 @@ class MainActivity : AppCompatActivity() {
         binding.saveButton?.setOnClickListener {
             val text = binding.editText?.text.toString()
             if (text.isEmpty()) {
-                Toast.makeText(this, R.string.error_is_empty,
-                    Toast.LENGTH_LONG).show()
+                Toast.makeText(
+                    this, R.string.error_is_empty, Toast.LENGTH_LONG
+                ).show()
                 return@setOnClickListener
             }
             viewModel.changeContentAndSave(text)

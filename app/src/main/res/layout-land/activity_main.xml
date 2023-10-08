@@ -84,7 +84,7 @@
         android:layout_width="@dimen/icon_dimens"
         android:layout_height="@dimen/icon_dimens"
         android:layout_marginEnd="100dp"
-        android:src="@drawable/like_icon"
+        android:src="@drawable/like_icon_"
         android:scaleType="fitCenter"
         android:contentDescription="@string/likes_amount"
         app:layout_constraintStart_toStartOf="parent"

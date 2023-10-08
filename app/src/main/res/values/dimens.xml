@@ -5,4 +5,5 @@
     <dimen name="icon_dimens">24dp</dimen>
     <dimen name="space_between_groups">24dp</dimen>
     <dimen name="space_inside_group">10dp</dimen>
+    <dimen name="button_icon_size">24dp</dimen>
 </resources>

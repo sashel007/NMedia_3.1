@@ -12,6 +12,7 @@ interface OnInteractionListener {
     fun edit(post: Post)
     fun share(post: Post)
 }
+
 class PostAdapter(
     private val onInteractionListener: OnInteractionListener
 ) : ListAdapter<Post, PostViewHolder>(PostDiffCallback()) {

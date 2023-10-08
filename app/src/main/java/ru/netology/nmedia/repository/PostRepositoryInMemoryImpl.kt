@@ -19,8 +19,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -28,8 +27,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-    ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -37,8 +35,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -46,8 +43,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -55,8 +51,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -64,8 +59,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -73,8 +67,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов. Но самое важное остаётся с нами: мы верим, что в каждом уже есть сила, которая заставляет хотеть больше, целиться выше, бежать быстрее. Наша миссия — помочь встать на путь роста и начать цепочку перемен – http://netolo.gy/fyb",
@@ -82,17 +75,15 @@ class PostRepositoryInMemoryImpl : PostRepository {
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                published = "21 мая в 18:36",
+            published = "21 мая в 18:36",
             likedByMe = false,
             likes = 10,
             sharings = 5
-        ),
-        Post(
+        ), Post(
             id = nextId++,
             author = "Нетология: Университет интернет-профессий будущего",
             content = "Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов. Но самое важное остаётся с нами: мы верим, что в каждом уже есть сила, которая заставляет хотеть больше, целиться выше, бежать быстрее. Наша миссия — помочь встать на путь роста и начать цепочку перемен – http://netolo.gy/fyb",
@@ -110,7 +101,7 @@ class PostRepositoryInMemoryImpl : PostRepository {
             if (it.id == id) {
                 it.copy(
                     likedByMe = !it.likedByMe,
-                    likes = if(it.likedByMe) it.likes - 1 else it.likes +1
+                    likes = if (it.likedByMe) it.likes - 1 else it.likes + 1
                 )
             } else {
                 it

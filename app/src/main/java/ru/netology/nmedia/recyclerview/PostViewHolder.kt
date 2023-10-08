@@ -8,8 +8,7 @@ import ru.netology.nmedia.databinding.PostCardBinding
 import ru.netology.nmedia.dto.Post
 
 class PostViewHolder(
-    private val binding: PostCardBinding,
-    private val onInteractionListener: OnInteractionListener
+    private val binding: PostCardBinding, private val onInteractionListener: OnInteractionListener
 ) : RecyclerView.ViewHolder(binding.root) {
     fun bind(post: Post) {
         binding.apply {
@@ -17,14 +16,14 @@ class PostViewHolder(
             published.text = post.published
             content.text = post.content
             likeIcon.isChecked = post.likedByMe
+            likeIcon.text = formatAmount(post.likes)
             likeIcon.setOnClickListener {
                 onInteractionListener.like(post)
             }
             sharingIcon.setOnClickListener {
                 onInteractionListener.share(post)
             }
-            likeNumber.text = formatAmount(post.likes)
-            sharingsNumber.text = formatAmount(post.sharings)
+            sharingIcon.text = formatAmount(post.sharings)
             menu.setOnClickListener {
                 PopupMenu(it.context, it).apply {
                     inflate(R.menu.menu_options)
@@ -34,10 +33,12 @@ class PostViewHolder(
                                 onInteractionListener.remove(post)
                                 true
                             }
+
                             R.id.edit -> {
                                 onInteractionListener.edit(post)
                                 true
                             }
+
                             else -> false
                         }
                     }
